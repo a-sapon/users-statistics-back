@@ -1,0 +1,18 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "backend for appCo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node start.js",
+    "start": "nodemon start.js"
+  },
+  "author": "Anna_Sapon <sapon.anya@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "nodemon": "^2.0.4"
+  }
+}
